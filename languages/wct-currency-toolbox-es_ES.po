@@ -1,0 +1,816 @@
+# Translation of WooCommerce Currency Toolbox in Spanish (Spain)
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Currency Toolbox 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-currency-toolbox\n"
+"POT-Creation-Date: 2025-01-20 00:00:00+00:00\n"
+"PO-Revision-Date: 2025-01-20 00:00:00+00:00\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Manual\n"
+
+#: woocommerce-currency-toolbox.php:31
+msgid "WooCommerce Currency Toolbox"
+msgstr "WooCommerce Currency Toolbox"
+
+#: includes/class-wct-admin.php:22 includes/class-wct-admin.php:23
+msgid "Currency Toolbox"
+msgstr "Caja de Herramientas de Monedas"
+
+#: includes/class-wct-admin.php:32 includes/class-wct-admin.php:33
+msgid "Configuración General"
+msgstr "Configuración General"
+
+#: includes/class-wct-admin.php:40 includes/class-wct-admin.php:41
+msgid "Monedas"
+msgstr "Monedas"
+
+#: includes/class-wct-admin.php:48 includes/class-wct-admin.php:49
+msgid "Tipos de Cambio"
+msgstr "Tipos de Cambio"
+
+#: includes/class-wct-admin.php:56 includes/class-wct-admin.php:57
+msgid "Zonas de Precios"
+msgstr "Zonas de Precios"
+
+#: includes/class-wct-admin.php:64 includes/class-wct-admin.php:65
+msgid "Widget"
+msgstr "Widget"
+
+#: templates/admin/settings.php:7
+msgid "Configuración General - Currency Switcher"
+msgstr "Configuración General - Selector de Monedas"
+
+#: templates/admin/settings.php:11
+msgid "Configuración guardada exitosamente"
+msgstr "Configuración guardada exitosamente"
+
+#: templates/admin/settings.php:19
+msgid "Moneda Principal"
+msgstr "Moneda Principal"
+
+#: templates/admin/settings.php:30
+msgid "Moneda base para todos los cálculos de tipos de cambio"
+msgstr "Moneda base para todos los cálculos de tipos de cambio"
+
+#: templates/admin/settings.php:36
+msgid "Mostrar Banderas"
+msgstr "Mostrar Banderas"
+
+#: templates/admin/settings.php:40
+msgid "Mostrar banderas de países junto a las monedas"
+msgstr "Mostrar banderas de países junto a las monedas"
+
+#: templates/admin/settings.php:46
+msgid "Detección por IP"
+msgstr "Detección por IP"
+
+#: templates/admin/settings.php:50
+msgid "Detectar moneda automáticamente basada en la ubicación del usuario"
+msgstr "Detectar moneda automáticamente basada en la ubicación del usuario"
+
+#: templates/admin/settings.php:56
+msgid "Permitir Compra en Moneda Seleccionada"
+msgstr "Permitir Compra en Moneda Seleccionada"
+
+#: templates/admin/settings.php:60
+msgid "Permitir que los clientes paguen en la moneda seleccionada"
+msgstr "Permitir que los clientes paguen en la moneda seleccionada"
+
+#: templates/admin/settings.php:61
+msgid "Si está desactivado, todos los pagos se procesarán en la moneda principal"
+msgstr "Si está desactivado, todos los pagos se procesarán en la moneda principal"
+
+#: templates/admin/settings.php:67
+msgid "Fuente de Tipos de Cambio"
+msgstr "Fuente de Tipos de Cambio"
+
+#: templates/admin/settings.php:71
+msgid "Manual"
+msgstr "Manual"
+
+#: templates/admin/settings.php:72
+msgid "Fixer.io"
+msgstr "Fixer.io"
+
+#: templates/admin/settings.php:73
+msgid "ExchangeRate-API"
+msgstr "ExchangeRate-API"
+
+#: templates/admin/settings.php:81
+msgid "Clave API"
+msgstr "Clave API"
+
+#: templates/admin/settings.php:84
+msgid "Ingresa tu clave API para el servicio de tipos de cambio seleccionado"
+msgstr "Ingresa tu clave API para el servicio de tipos de cambio seleccionado"
+
+#: templates/admin/settings.php:91
+msgid "Intervalo de Actualización"
+msgstr "Intervalo de Actualización"
+
+#: templates/admin/settings.php:95
+msgid "Cada hora"
+msgstr "Cada hora"
+
+#: templates/admin/settings.php:96
+msgid "Diariamente"
+msgstr "Diariamente"
+
+#: templates/admin/settings.php:97
+msgid "Semanalmente"
+msgstr "Semanalmente"
+
+#: templates/admin/settings.php:104
+msgid "Posición del Widget"
+msgstr "Posición del Widget"
+
+#: templates/admin/settings.php:108
+msgid "Header"
+msgstr "Cabecera"
+
+#: templates/admin/settings.php:109
+msgid "Footer"
+msgstr "Pie de página"
+
+#: templates/admin/settings.php:110
+msgid "Página de Tienda"
+msgstr "Página de Tienda"
+
+#: templates/admin/settings.php:111
+msgid "Carrito"
+msgstr "Carrito"
+
+#: templates/admin/settings.php:112
+msgid "Checkout"
+msgstr "Finalizar Compra"
+
+#: templates/admin/settings.php:113
+msgid "Solo Widget"
+msgstr "Solo Widget"
+
+#: templates/admin/settings.php:120
+msgid "Estilo del Widget"
+msgstr "Estilo del Widget"
+
+#: templates/admin/settings.php:124
+msgid "Lista Desplegable"
+msgstr "Lista Desplegable"
+
+#: templates/admin/settings.php:125
+msgid "Botones"
+msgstr "Botones"
+
+#: templates/admin/settings.php:126
+msgid "Solo Banderas"
+msgstr "Solo Banderas"
+
+#: includes/class-wct-widget.php:15
+msgid "Currency Switcher"
+msgstr "Selector de Monedas"
+
+#: includes/class-wct-widget.php:17
+msgid "Permite a los usuarios cambiar la moneda de la tienda"
+msgstr "Permite a los usuarios cambiar la moneda de la tienda"
+
+#: includes/class-wct-widget.php:30
+msgid "Seleccionar Moneda"
+msgstr "Seleccionar Moneda"
+
+#: templates/admin/currencies.php:7
+msgid "Gestión de Monedas"
+msgstr "Gestión de Monedas"
+
+#: templates/admin/currencies.php:11
+msgid "Monedas guardadas exitosamente"
+msgstr "Monedas guardadas exitosamente"
+
+#: templates/admin/currencies.php:21
+msgid "Agregar Moneda"
+msgstr "Agregar Moneda"
+
+#: templates/admin/currencies.php:36
+msgid "Código de Moneda"
+msgstr "Código de Moneda"
+
+#: templates/admin/currencies.php:41
+msgid "Nombre"
+msgstr "Nombre"
+
+#: templates/admin/currencies.php:46
+msgid "Símbolo"
+msgstr "Símbolo"
+
+#: templates/admin/currencies.php:51
+msgid "Formato de Precio"
+msgstr "Formato de Precio"
+
+#: templates/admin/currencies.php:53
+msgid "%1$s = símbolo, %2$s = precio"
+msgstr "%1$s = símbolo, %2$s = precio"
+
+#: templates/admin/currencies.php:58
+msgid "Código de Bandera"
+msgstr "Código de Bandera"
+
+#: templates/admin/currencies.php:65
+msgid "Habilitada"
+msgstr "Habilitada"
+
+#: templates/admin/currencies.php:71
+msgid "Tipo de Cambio Manual"
+msgstr "Tipo de Cambio Manual"
+
+#: templates/admin/currencies.php:73
+msgid "Tipo de cambio respecto a la moneda principal"
+msgstr "Tipo de cambio respecto a la moneda principal"
+
+#: templates/admin/currencies.php:78
+msgid "Métodos de Pago Permitidos"
+msgstr "Métodos de Pago Permitidos"
+
+#: templates/admin/currencies.php:98
+msgid "Guardar Monedas"
+msgstr "Guardar Monedas"
+
+#: includes/class-wct-main.php:55
+msgid "Cambiando moneda..."
+msgstr "Cambiando moneda..."
+
+#: includes/class-wct-main.php:56
+msgid "Moneda cambiada exitosamente"
+msgstr "Moneda cambiada exitosamente"
+
+#: includes/class-wct-main.php:155
+msgid "Moneda no válida"
+msgstr "Moneda no válida"
+
+#: includes/class-wct-main.php:160
+msgid "La sesión de WooCommerce no está disponible"
+msgstr "La sesión de WooCommerce no está disponible"
+
+#: templates/admin/exchange-rates.php:7
+msgid "Tipos de cambio actualizados exitosamente"
+msgstr "Tipos de cambio actualizados exitosamente"
+
+#: templates/admin/exchange-rates.php:108
+msgid "Guardar Tipos de Cambio"
+msgstr "Guardar Tipos de Cambio"
+
+#: templates/admin/zone-pricing.php:7
+msgid "Zonas de precios guardadas exitosamente"
+msgstr "Zonas de precios guardadas exitosamente"
+
+#: templates/admin/zone-pricing.php:20
+msgid "Agregar Zona de Precios"
+msgstr "Agregar Zona de Precios"
+
+#: templates/admin/zone-pricing.php:29
+msgid "Eliminar"
+msgstr "Eliminar"
+
+#: templates/admin/zone-pricing.php:35
+msgid "Nombre de la Zona"
+msgstr "Nombre de la Zona"
+
+#: templates/admin/zone-pricing.php:40
+msgid "Países"
+msgstr "Países"
+
+#: templates/admin/zone-pricing.php:59
+msgid "Moneda"
+msgstr "Moneda"
+
+#: templates/admin/zone-pricing.php:78
+msgid "Guardar Zonas de Precios"
+msgstr "Guardar Zonas de Precios"
+
+#: includes/class-wct-coupons.php:31
+msgid "Configuración de Monedas"
+msgstr "Configuración de Monedas"
+
+#: includes/class-wct-coupons.php:37
+msgid "Monedas Permitidas"
+msgstr "Monedas Permitidas"
+
+#: includes/class-wct-coupons.php:49
+msgid "Dejar vacío para permitir todas las monedas"
+msgstr "Dejar vacío para permitir todas las monedas"
+
+#: includes/class-wct-coupons.php:54
+msgid "Montos Mínimos por Moneda"
+msgstr "Montos Mínimos por Moneda"
+
+#: includes/class-wct-coupons.php:59
+msgid "Monto Mínimo (%s)"
+msgstr "Monto Mínimo (%s)"
+
+#: includes/class-wct-coupons.php:67
+msgid "Montos Máximos por Moneda"
+msgstr "Montos Máximos por Moneda"
+
+#: includes/class-wct-coupons.php:72
+msgid "Monto Máximo (%s)"
+msgstr "Monto Máximo (%s)"
+
+#: includes/class-wct-coupons.php:123
+msgid "Este cupón no es válido para la moneda seleccionada"
+msgstr "Este cupón no es válido para la moneda seleccionada"
+
+#: includes/class-wct-frontend.php:245
+msgid "La moneda seleccionada no está disponible"
+msgstr "La moneda seleccionada no está disponible"
+
+#: includes/class-wct-frontend.php:254
+msgid "El método de pago seleccionado no está disponible para esta moneda"
+msgstr "El método de pago seleccionado no está disponible para esta moneda"
+
+msgid "No tienes permisos para realizar esta acción"
+msgstr "No tienes permisos para realizar esta acción"
+
+msgid "Nueva Moneda"
+msgstr "Nueva Moneda"
+
+msgid "¿Estás seguro de que quieres eliminar esta moneda?"
+msgstr "¿Estás seguro de que quieres eliminar esta moneda?"
+
+msgid "Nueva Zona de Precios"
+msgstr "Nueva Zona de Precios"
+
+msgid "¿Estás seguro de que quieres eliminar esta zona de precios?"
+msgstr "¿Estás seguro de que quieres eliminar esta zona de precios?"
+
+msgid "Por favor, ingresa una clave API"
+msgstr "Por favor, ingresa una clave API"
+
+msgid "Probando..."
+msgstr "Probando..."
+
+msgid "Conexión exitosa:"
+msgstr "Conexión exitosa:"
+
+msgid "Error:"
+msgstr "Error:"
+
+msgid "Error de conexión"
+msgstr "Error de conexión"
+
+msgid "Actualizando..."
+msgstr "Actualizando..."
+
+msgid "Error al actualizar los tipos de cambio"
+msgstr "Error al actualizar los tipos de cambio"
+
+msgid "Probar Conexión"
+msgstr "Probar Conexión"
+
+msgid "Actualizar Tipos de Cambio"
+msgstr "Actualizar Tipos de Cambio"
+
+msgid "Última Actualización"
+msgstr "Última Actualización"
+
+msgid "Nunca"
+msgstr "Nunca"
+
+msgid "Actualizar"
+msgstr "Actualizar"
+
+msgid "Gestionar Productos"
+msgstr "Gestionar Productos"
+
+msgid "productos"
+msgstr "productos"
+
+msgid "países"
+msgstr "países"
+
+msgid "No hay zonas de precios configuradas."
+msgstr "No hay zonas de precios configuradas."
+
+msgid "Precio Regular"
+msgstr "Precio Regular"
+
+msgid "Precio de Oferta"
+msgstr "Precio de Oferta"
+
+msgid "Tipos de Cambio Actuales"
+msgstr "Tipos de Cambio Actuales"
+
+msgid "Configuración de API"
+msgstr "Configuración de API"
+
+msgid "Historial de Tipos de Cambio"
+msgstr "Historial de Tipos de Cambio"
+
+msgid "Fecha"
+msgstr "Fecha"
+
+msgid "De"
+msgstr "De"
+
+msgid "A"
+msgstr "A"
+
+msgid "Tipo de Cambio"
+msgstr "Tipo de Cambio"
+
+msgid "Acciones"
+msgstr "Acciones"
+
+msgid "No hay historial de tipos de cambio disponible."
+msgstr "No hay historial de tipos de cambio disponible."
+
+msgid "Los tipos de cambio se actualizan automáticamente según la configuración de la API."
+msgstr "Los tipos de cambio se actualizan automáticamente según la configuración de la API."
+
+msgid "1 %s = %s %s"
+msgstr "1 %s = %s %s"
+
+msgid "Configuración de Productos"
+msgstr "Configuración de Productos"
+
+msgid "Para configurar precios específicos por zona, edita cada producto individualmente. Los campos de precios por zona aparecerán en la sección de precios de cada producto."
+msgstr "Para configurar precios específicos por zona, edita cada producto individualmente. Los campos de precios por zona aparecerán en la sección de precios de cada producto."
+
+msgid "Estadísticas de Zonas"
+msgstr "Estadísticas de Zonas"
+
+msgid "Zona"
+msgstr "Zona"
+
+msgid "Productos con Precios"
+msgstr "Productos con Precios"
+
+msgid "Configuración General del Widget"
+msgstr "Configuración General del Widget"
+
+msgid "Configuración del Widget"
+msgstr "Configuración del Widget"
+
+msgid "Configuración del widget guardada exitosamente"
+msgstr "Configuración del widget guardada exitosamente"
+
+msgid "Vista Previa del Widget"
+msgstr "Vista Previa del Widget"
+
+msgid "Vista Previa"
+msgstr "Vista Previa"
+
+msgid "Widget de WordPress"
+msgstr "Widget de WordPress"
+
+msgid "También puedes agregar el Currency Switcher como un widget de WordPress en cualquier área de widgets de tu tema."
+msgstr "También puedes agregar el Currency Switcher como un widget de WordPress en cualquier área de widgets de tu tema."
+
+msgid "Gestionar Widgets"
+msgstr "Gestionar Widgets"
+
+msgid "Shortcode"
+msgstr "Shortcode"
+
+msgid "También puedes usar el shortcode para mostrar el Currency Switcher en cualquier lugar:"
+msgstr "También puedes usar el shortcode para mostrar el Currency Switcher en cualquier lugar:"
+
+msgid "Shortcode Básico:"
+msgstr "Shortcode Básico:"
+
+msgid "Shortcode con Estilo:"
+msgstr "Shortcode con Estilo:"
+
+msgid "Parámetros disponibles:"
+msgstr "Parámetros disponibles:"
+
+msgid "Integración con Temas"
+msgstr "Integración con Temas"
+
+msgid "Para integrar el Currency Switcher en tu tema, puedes usar las siguientes funciones PHP:"
+msgstr "Para integrar el Currency Switcher en tu tema, puedes usar las siguientes funciones PHP:"
+
+msgid "Mostrar en cualquier lugar:"
+msgstr "Mostrar en cualquier lugar:"
+
+msgid "Verificar si está habilitado:"
+msgstr "Verificar si está habilitado:"
+
+msgid "Conexión exitosa con Fixer.io"
+msgstr "Conexión exitosa con Fixer.io"
+
+msgid "Conexión exitosa con ExchangeRate-API"
+msgstr "Conexión exitosa con ExchangeRate-API"
+
+msgid "Error en la API: "
+msgstr "Error en la API: "
+
+msgid "Error de conexión: "
+msgstr "Error de conexión: "
+
+msgid "Moneda detectada: %s (%s) para %s"
+msgstr "Moneda detectada: %s (%s) para %s"
+
+msgid "No se pudo detectar la moneda para esta ubicación"
+msgstr "No se pudo detectar la moneda para esta ubicación"
+
+msgid "Precios por Zona"
+msgstr "Precios por Zona"
+
+msgid "Gestión de Zonas de Precios"
+msgstr "Gestión de Zonas de Precios"
+
+
+msgid "Seleccionar país"
+msgstr "Seleccionar país"
+
+msgid "Buscar país..."
+msgstr "Buscar país..."
+
+msgid "Afganistán"
+msgstr "Afganistán"
+
+msgid "Albania"
+msgstr "Albania"
+
+msgid "Alemania"
+msgstr "Alemania"
+
+msgid "Andorra"
+msgstr "Andorra"
+
+msgid "Angola"
+msgstr "Angola"
+
+msgid "Arabia Saudita"
+msgstr "Arabia Saudita"
+
+msgid "Argelia"
+msgstr "Argelia"
+
+msgid "Argentina"
+msgstr "Argentina"
+
+msgid "Armenia"
+msgstr "Armenia"
+
+msgid "Australia"
+msgstr "Australia"
+
+msgid "Austria"
+msgstr "Austria"
+
+msgid "Azerbaiyán"
+msgstr "Azerbaiyán"
+
+msgid "Bahamas"
+msgstr "Bahamas"
+
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+msgid "Barbados"
+msgstr "Barbados"
+
+msgid "Bélgica"
+msgstr "Bélgica"
+
+msgid "Belice"
+msgstr "Belice"
+
+msgid "Bolivia"
+msgstr "Bolivia"
+
+msgid "Brasil"
+msgstr "Brasil"
+
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+msgid "Canadá"
+msgstr "Canadá"
+
+msgid "Chile"
+msgstr "Chile"
+
+msgid "China"
+msgstr "China"
+
+msgid "Colombia"
+msgstr "Colombia"
+
+msgid "Corea del Sur"
+msgstr "Corea del Sur"
+
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+msgid "Croacia"
+msgstr "Croacia"
+
+msgid "Cuba"
+msgstr "Cuba"
+
+msgid "Dinamarca"
+msgstr "Dinamarca"
+
+msgid "Ecuador"
+msgstr "Ecuador"
+
+msgid "Egipto"
+msgstr "Egipto"
+
+msgid "El Salvador"
+msgstr "El Salvador"
+
+msgid "Emiratos Árabes Unidos"
+msgstr "Emiratos Árabes Unidos"
+
+msgid "España"
+msgstr "España"
+
+msgid "Estados Unidos"
+msgstr "Estados Unidos"
+
+msgid "Estonia"
+msgstr "Estonia"
+
+msgid "Filipinas"
+msgstr "Filipinas"
+
+msgid "Finlandia"
+msgstr "Finlandia"
+
+msgid "Francia"
+msgstr "Francia"
+
+msgid "Grecia"
+msgstr "Grecia"
+
+msgid "Guatemala"
+msgstr "Guatemala"
+
+msgid "Honduras"
+msgstr "Honduras"
+
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgid "Hungría"
+msgstr "Hungría"
+
+msgid "India"
+msgstr "India"
+
+msgid "Indonesia"
+msgstr "Indonesia"
+
+msgid "Irak"
+msgstr "Irak"
+
+msgid "Irán"
+msgstr "Irán"
+
+msgid "Irlanda"
+msgstr "Irlanda"
+
+msgid "Islandia"
+msgstr "Islandia"
+
+msgid "Israel"
+msgstr "Israel"
+
+msgid "Italia"
+msgstr "Italia"
+
+msgid "Jamaica"
+msgstr "Jamaica"
+
+msgid "Japón"
+msgstr "Japón"
+
+msgid "Jordania"
+msgstr "Jordania"
+
+msgid "Kazajistán"
+msgstr "Kazajistán"
+
+msgid "Kenia"
+msgstr "Kenia"
+
+msgid "Kuwait"
+msgstr "Kuwait"
+
+msgid "Letonia"
+msgstr "Letonia"
+
+msgid "Líbano"
+msgstr "Líbano"
+
+msgid "Lituania"
+msgstr "Lituania"
+
+msgid "Luxemburgo"
+msgstr "Luxemburgo"
+
+msgid "Malasia"
+msgstr "Malasia"
+
+msgid "Malta"
+msgstr "Malta"
+
+msgid "Marruecos"
+msgstr "Marruecos"
+
+msgid "México"
+msgstr "México"
+
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+msgid "Nigeria"
+msgstr "Nigeria"
+
+msgid "Noruega"
+msgstr "Noruega"
+
+msgid "Nueva Zelanda"
+msgstr "Nueva Zelanda"
+
+msgid "Países Bajos"
+msgstr "Países Bajos"
+
+msgid "Pakistán"
+msgstr "Pakistán"
+
+msgid "Panamá"
+msgstr "Panamá"
+
+msgid "Paraguay"
+msgstr "Paraguay"
+
+msgid "Perú"
+msgstr "Perú"
+
+msgid "Polonia"
+msgstr "Polonia"
+
+msgid "Portugal"
+msgstr "Portugal"
+
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+msgid "Reino Unido"
+msgstr "Reino Unido"
+
+msgid "República Checa"
+msgstr "República Checa"
+
+msgid "República Dominicana"
+msgstr "República Dominicana"
+
+msgid "Rumania"
+msgstr "Rumania"
+
+msgid "Rusia"
+msgstr "Rusia"
+
+msgid "Singapur"
+msgstr "Singapur"
+
+msgid "Sudáfrica"
+msgstr "Sudáfrica"
+
+msgid "Suecia"
+msgstr "Suecia"
+
+msgid "Suiza"
+msgstr "Suiza"
+
+msgid "Tailandia"
+msgstr "Tailandia"
+
+msgid "Taiwán"
+msgstr "Taiwán"
+
+msgid "Turquía"
+msgstr "Turquía"
+
+msgid "Ucrania"
+msgstr "Ucrania"
+
+msgid "Uruguay"
+msgstr "Uruguay"
+
+msgid "Venezuela"
+msgstr "Venezuela"
+
+msgid "Vietnam"
+msgstr "Vietnam"
+
+msgid "Unión Europea"
+msgstr "Unión Europea"
+

@@ -1,0 +1,463 @@
+/**
+ * Estilos para el panel de administración del Currency Switcher
+ */
+
+.wct-admin-container {
+    max-width: 1200px;
+}
+
+.wct-admin-header {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.wct-admin-header h1 {
+    margin: 0 0 10px 0;
+    color: #23282d;
+}
+
+.wct-admin-header p {
+    margin: 0;
+    color: #666;
+}
+
+/* Formularios */
+.wct-form-section {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.wct-form-section h2 {
+    margin: 0 0 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.wct-form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+
+.wct-form-row label {
+    min-width: 150px;
+    font-weight: 600;
+}
+
+.wct-form-row input,
+.wct-form-row select,
+.wct-form-row textarea {
+    flex: 1;
+    max-width: 300px;
+}
+
+/* Gestión de monedas */
+.wct-currencies-container {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.currency-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fafafa;
+}
+
+.currency-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.currency-header h3 {
+    margin: 0;
+    color: #23282d;
+}
+
+.currency-fields {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.field-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.field-group label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #23282d;
+}
+
+.field-group input,
+.field-group select {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.field-group input:focus,
+.field-group select:focus {
+    border-color: #0073aa;
+    box-shadow: 0 0 0 1px #0073aa;
+    outline: none;
+}
+
+.gateways-list {
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    background: #fff;
+}
+
+.gateways-list label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.gateways-list input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Botones */
+.wct-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #0073aa;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.wct-button:hover {
+    background: #005a87;
+    color: #fff;
+}
+
+.wct-button-secondary {
+    background: #f1f1f1;
+    color: #555;
+    border: 1px solid #ccc;
+}
+
+.wct-button-secondary:hover {
+    background: #e1e1e1;
+    color: #555;
+}
+
+.wct-button-danger {
+    background: #dc3232;
+}
+
+.wct-button-danger:hover {
+    background: #a00;
+}
+
+/* Estados */
+.wct-loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.wct-loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #0073aa;
+    border-radius: 50%;
+    animation: wct-spin 1s linear infinite;
+}
+
+@keyframes wct-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Mensajes */
+.wct-notice {
+    padding: 12px;
+    margin: 15px 0;
+    border-left: 4px solid #0073aa;
+    background: #f7f7f7;
+    border-radius: 0 4px 4px 0;
+}
+
+.wct-notice.success {
+    border-left-color: #46b450;
+    background: #ecf7ed;
+}
+
+.wct-notice.error {
+    border-left-color: #dc3232;
+    background: #fbeaea;
+}
+
+.wct-notice.warning {
+    border-left-color: #ffb900;
+    background: #fff8e5;
+}
+
+/* Tablas */
+.wct-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.wct-table th,
+.wct-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.wct-table th {
+    background: #f9f9f9;
+    font-weight: 600;
+    color: #23282d;
+}
+
+.wct-table tr:hover {
+    background: #f5f5f5;
+}
+
+/* Widget de prueba */
+.wct-test-widget {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    background: #f9f9f9;
+    margin: 20px 0;
+}
+
+.wct-test-widget h4 {
+    margin: 0 0 15px 0;
+    color: #23282d;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .wct-form-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .wct-form-row label {
+        min-width: auto;
+        margin-bottom: 5px;
+    }
+    
+    .wct-form-row input,
+    .wct-form-row select {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .currency-fields {
+        grid-template-columns: 1fr;
+    }
+    
+    .currency-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}
+
+/* Estilos específicos para páginas */
+.wct-settings-page .form-table th {
+    width: 200px;
+}
+
+.wct-currencies-page .currency-item {
+    position: relative;
+}
+
+.wct-currencies-page .remove-currency {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.wct-exchange-rates-page .rate-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.wct-exchange-rates-page .rate-item:last-child {
+    border-bottom: none;
+}
+
+.wct-exchange-rates-page .rate-currency {
+    font-weight: 600;
+    min-width: 100px;
+}
+
+.wct-exchange-rates-page .rate-value {
+    margin: 0 20px;
+    font-family: monospace;
+}
+
+.wct-exchange-rates-page .rate-actions {
+    margin-left: auto;
+}
+
+/* Estilos para el widget de administración */
+.wct-admin-widget {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.wct-admin-widget h3 {
+    margin: 0 0 15px 0;
+    color: #23282d;
+}
+
+.wct-admin-widget .wct-currency-switcher {
+    margin: 0;
+}
+
+/* Estilos para la página de zonas de precios */
+.wct-zone-pricing-page .zone-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fafafa;
+}
+
+.wct-zone-pricing-page .zone-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.wct-zone-pricing-page .zone-header h3 {
+    margin: 0;
+    color: #23282d;
+}
+
+.wct-zone-pricing-page .zone-fields {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.wct-zone-pricing-page .zone-countries {
+    margin: 10px 0;
+}
+
+.wct-zone-pricing-page .zone-countries select {
+    width: 100%;
+    min-height: 100px;
+}
+
+/* Estilos para la página de widget */
+.wct-widget-page .widget-preview {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    background: #f9f9f9;
+    margin: 20px 0;
+}
+
+.wct-widget-page .widget-preview h4 {
+    margin: 0 0 15px 0;
+    color: #23282d;
+}
+
+/* Estilos para la página de tipos de cambio */
+.wct-exchange-rates-page .wct-admin-container {
+    max-width: 1000px;
+}
+
+.wct-exchange-rates-page .rate-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    gap: 15px;
+}
+
+.wct-exchange-rates-page .rate-item:last-child {
+    border-bottom: none;
+}
+
+.wct-exchange-rates-page .rate-currency {
+    font-weight: 600;
+    min-width: 100px;
+    color: #23282d;
+}
+
+.wct-exchange-rates-page .rate-value {
+    flex: 1;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.wct-exchange-rates-page .rate-input {
+    flex: 1;
+    max-width: 200px;
+}
+
+.wct-exchange-rates-page .rate-actions {
+    margin-left: auto;
+}
+
+.wct-exchange-rates-page .update-button {
+    margin-top: 10px;
+}
+
+/* Asegurar que los campos de formulario tengan ancho completo */
+.wct-form-section .field-group input[type="text"],
+.wct-form-section .field-group input[type="number"],
+.wct-form-section .field-group select,
+.wct-form-section .field-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Estilos para los selectores múltiples */
+.wct-form-section select[multiple] {
+    width: 100%;
+    min-height: 150px;
+    padding: 8px;
+}
